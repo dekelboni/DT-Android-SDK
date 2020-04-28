@@ -21,6 +21,11 @@ DTTracker.userDataProvider = new DTUserDataProvider() {
             public String getUserEmail() {
                 return "exa@test.com";
             }
+            
+            @Override
+            public String getPhoneNumber() {
+                return "+1-....";
+            }
 
             @Override
             public Location getLocation() {
